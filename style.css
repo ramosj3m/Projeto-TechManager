@@ -1,6 +1,6 @@
 body{
     font-family: Arial, sans-serif;
-    background-color: #be7fe7;
+    background-color: #0fc28c;
     margin: 0;
     padding: 20px;
     color: #1e293b;
@@ -8,8 +8,8 @@ body{
 }
 
 header{
-    background-color: #0f172a;
-    color: rgb(77, 214, 123);
+    background-color: #4e6aac;
+    color: rgb(16, 38, 238);
     padding: 25px;
     border-radius:20px;
 }
@@ -24,7 +24,7 @@ main{
 }
 
 h2{
-    color: #0f172a;
+    color: #1644af;
 }
 
 section{
@@ -66,5 +66,19 @@ section{
 
     h1 {
         font-size: 24px;
+    }
+
+    .botao-ativo{
+        background-color: green;
+        color: white;
+        border-radius: 10px;
+        padding: 12px 20px;    
+    }
+
+    .botao-inativo{
+        background-color: red;
+        color: white;
+        border-radius: 10px;
+        padding: 12px 20px;
     }
 }
